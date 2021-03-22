@@ -493,9 +493,9 @@ class Goal {
     	gfx.drawRect(x, y, width, height);
    	 
     	// targets the ball can possibly hit is marked yellow
-    	gfx.setColor(Color.yellow);
-    	for (Point p : corners.values()) {
-        	gfx.fillOval(p.x-2, p.y-2, 4, 4);
-    	}
+		gfx.setColor(Color.yellow);
+		for (Point p : corners.values()) {
+			gfx.fillOval(p.x-2, p.y-2, 4, 4);
+		}
 	}
 }
